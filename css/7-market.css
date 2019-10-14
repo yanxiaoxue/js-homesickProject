@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	font-size: 50px;
+	perspective: 50rem;
+}
+body{
+	background: url("../images/pagesix/bgy.jpg")no-repeat;
+	background-size:100% 100%;
+	overflow: hidden;
+}
+#wrap{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/* border: 10px solid red; */
+}
+#t1{
+	position: absolute;
+	width: 35%;
+	top: 5%;
+	left: 10%;
+	transform: translate3d(-5.5rem,5.5rem,20rem);
+}
+#t2{
+	position: absolute;
+	width: 40%;
+	top: 5%;
+	right: 5%;
+	transform: translate3d(-10.5rem,8.5rem,20rem);
+}
+#t3{
+	position: absolute;
+	width: 10%;
+	top: 25%;
+	right: 2%;
+	transform: translate3d(10.5rem,8.5rem,20rem);
+}
+#t4{
+	position: absolute;
+	width: 7%;
+	top: 5%;
+	left: 0%;
+	transform: translate3d(10.5rem,8.5rem,20rem);
+
+}
+#t5{
+	position: absolute;
+	width: 35%;
+	top: 4%;
+	left: 30%;
+	transform: translate3d(10.5rem,8.5rem,20rem);
+
+}
+#t6{
+	position: absolute;
+	width: 7%;
+	top: 5%;
+	right: 0%;
+	transform: translate3d(-10.5rem,8.5rem,20rem);
+}
+#t7{
+	position: absolute;
+	width: 15%;
+	top: 0%;
+	right: 40%;
+	z-index: 2;
+	transform: translate3d(-10.5rem,8.5rem,20rem);
+}
+
+#user{
+	position: relative;
+	width: 5.5rem;
+	height: 8rem;
+	/* border: 1px solid red; */
+	margin: 0 auto;
+
+}
+.user{
+	opacity: 0;
+}
+#user1{
+	position: absolute;
+	width: 40%;
+	top: 0%;
+	left: 10%;
+	opacity: 0;
+
+}
+#user2{
+	position: absolute;
+	width: 40%;
+	top: 5%;
+	right: 5%;
+}
+#user3{
+	position: absolute;
+	width: 30%;
+	top: 40%;
+	left: 0%;
+}
+#user4{
+	position: absolute;
+	width: 33%;
+	top: 37%;
+	left: 32%;
+}
+#user5{
+	position: absolute;
+	width: 32%;
+	top: 37%;
+	right:0%;
+}
+#user6{
+	position: absolute;
+	width: 32%;
+	top: 70%;
+	left:18%;
+}
+#user7{
+	position: absolute;
+	width: 32%;
+	top: 65%;
+	right:3%;
+}
+#ttw{
+	position: absolute;
+	top: 12%;
+	left: 25%;
+	width: 55%;
+	opacity: 0;
+}
+#ttww{
+	width: 55%;
+	margin:40% 20% 5%;
+	opacity: 0;
+}
+#slide {
+	position: fixed;
+	width: 12%;
+	bottom: 0%;
+	left: 47%;
+	animation: slideBtn 1.5s linear infinite;
+
+}
+
+/* 添加动画 */
+@-webkit-keyframes slideBtn {
+	0% {
+		bottom: 0%;
+	}
+
+	25% {
+		bottom: 2%;
+	}
+
+	50% {
+		bottom: 4%;
+	}
+
+	75% {
+		bottom: 2%;
+	}
+
+	100% {
+		bottom: 0%;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	html {
+		font-size: 42.7px;
+	}
+
+}
+
+@media screen and (min-width: 322px) and (max-width:399px) {
+	html {
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width:766px) {
+	html {
+		font-size: 77.7pxpx;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width:1022px) {
+	html {
+		font-size: 65px;
+	}
+	#ttww{
+		width: 50%;
+		margin:40% 25% 2%;
+		opacity: 0;
+	}
+}
+
+@media screen and (min-width: 1023px) {
+	html {
+		font-size: 90px;
+	}
+	#ttww{
+		width: 50%;
+		margin:40% 25% 2%;
+		opacity: 0;
+	}
+}
